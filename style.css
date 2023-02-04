@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --color-warning: #FFE642;
+    --color-danger: #FB1351;
+    --color-success: #25AB75;
+
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* section-hero */
+
+body {
+    background-color: black;
+}
+
+.newcomponnent {
+    display: flex;
+    Width: 359px;
+    height: 36px;
+    background-color: hsla(0, 0%, 100%, 0.342);
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.new {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    width: 65px;
+    background: var(--color-success);
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 3px;
+    margin-left: -10px;
+}
+
+.newpara {
+    margin-left: 4px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 34px;
+
+}
+
+.Cardio {
+    font-family: Poppins;
+    font-size: 200px;
+    font-weight: 600;
+    line-height: 170px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: white;
+}
+
+.cardio-para {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.buttons {
+    display: flex;
+}
+
+.get {
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border-radius: 13px;
+    background-color: var(--color-success);
+    text-align: center;
+}
+
+.get2 {
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border-radius: 13px;
+    background-color: hsla(0, 0%, 100%, 0.342);
+    text-align: center;
+    margin-left: 20px;
+}
+
+.myimghero img {
+    position: absolute;
+    height: 750px;
+    width: 600px;
+    z-index: -999;
+    object-fit: cover;
+}
+
+.box1 {
+    position: absolute;
+    left: 75%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards1 {
+    align-self: flex-end;
+    padding-top: 10px;
+    width: 120px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 0.342);
+
+}
+
+.thirty {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: var(--color-warning);
+    text-align: center;
+
+}
+
+.Time {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    margin-right: 40px;
+}
+
+.thirty1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-left: -22px;
+    color: var(--color-danger);
+    text-align: center;
+}
+
+.Time1 {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    margin-right: 40px;
+}
+
+/* Popular Exercises-section  */
+
+.popula-h6 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    color: white;
+}
+
+.popular-p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.png1 {
+    border: none;
+    object-fit: fill;
+    background-color: black;
+}
+
+.title-para-hp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1-title {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 0.30px;
+    text-align: left;
+    margin-top: -9px;
+    color: white;
+    margin-left: 10px;
+}
+
+.card1-para {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 1.36px;
+    text-align: left;
+    margin-top: -10px;
+    color: white;
+}
+
+.my-text-p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: left;
+    color: white;
+}
+
+
+/* Workout Program-section */
+
+.workout {
+    position: relative;
+    font-family: Poppins;
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 120px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: white;
+}
+
+.pant {
+    position: absolute;
+    bottom: -200%;
+    height: 175px;
+    width: 500px;
+    z-index: -999;
+}
+
+.workout-para {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: white;
+}
+
+.get {
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1px;
+    border-radius: 13px;
+    background-color: var(--color-success);
+    text-align: center;
+}
+
+.fitnes-card-1 {
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+}
+
+.text-bhp {
+    margin-left: -20px;
+}
+
+.samant-h6 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+}
+
+.images-fitness {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.traner {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: white;
+}
+
+.img-parat {
+    margin-left: -24%;
+    margin-top: -4%;
+}
+
+.fitnes-card-2 {
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+
+}
+
+.fitnes-card-3 {
+    position: absolute;
+    top: -30%;
+    left: 54%;
+    height: 500px;
+    width: 550px;
+    object-fit: fill;
+}
+
+.arrow-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fst1 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+
+.fsth1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.83px;
+    color: #FFFFFF;
+
+}
+
+.icon {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.videos15 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-right: 18%;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+.videos14 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: -2%;
+    margin-right: 18%;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+.videos13 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 4%;
+    margin-right: 18%;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+.videos12 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 2%;
+    margin-right: 18%;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+.videos11 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 5%;
+    margin-right: 18%;
+    color: #FFFFFF;
+    margin-top: -5px;
+}
+
+
+/* responsive-section */
+
+@media screen and (max-width:375px) {
+    .newcomponnent {
+        width: 350px;
+        margin-left: 9px;
+    }
+
+    .Cardio {
+        text-align: center;
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .cardio-para {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .get {
+        height: 30px;
+        width: 120px;
+        font-size: 8px;
+        line-height: 32px;
+    }
+
+    .get2 {
+        height: 30px;
+        width: 120px;
+        font-size: 8px;
+        line-height: 32px;
+    }
+
+    .myimghero img {
+        width: 300px;
+    }
+
+    .box1 {
+        position: absolute;
+        top: -85px;
+        left: 70%;
+        width: 100px;
+        height: 5px;
+    }
+.pant{
+    width: 100px;
+}
+    .cards1 {
+        width: 90px;
+        height: 60px;
+    }
+
+    .popula-h6 {
+        font-size: 15px;
+    }
+
+    .popular-p {
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .workout {
+        text-align: center;
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .workout-para {
+        font-size: 14px;
+    }
+
+    .sec-btn {
+
+        margin-bottom: 80px;
+        width: 100px;
+    }
+
+    .fitnes-card-3 {
+        width: 200px;
+        height: 180px;
+        margin-left: -90px;
+    }
+
+    .fitnes-card-2 {
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+}
